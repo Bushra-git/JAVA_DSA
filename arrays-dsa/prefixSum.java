@@ -12,6 +12,7 @@ public class prefixSum {
             int start = i;
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
+                prefix[0] = numbers[0];
                 currSum = start == 0 ? prefix[end] : prefix[end] - prefix[start - 1];
                 if (maxSum < currSum) {
                     maxSum = currSum;
