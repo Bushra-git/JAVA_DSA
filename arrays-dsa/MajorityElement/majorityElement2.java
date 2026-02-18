@@ -1,5 +1,3 @@
-package MajoritElement;
-
 //brute force
 
 class Solution {
