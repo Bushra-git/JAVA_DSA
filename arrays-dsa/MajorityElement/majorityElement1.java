@@ -1,4 +1,4 @@
-package MajorityElement;
+
 
 // Time Complexity: O(n log n) due to sorting the array
 // Space Complexity: O(1) as we are using only a constant amount of extra space
